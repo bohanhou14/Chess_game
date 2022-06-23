@@ -1,0 +1,199 @@
+commit 57e66f09c0e67260a0407bfa5790db97d2c18205
+Author: Richard Zhang <rzhang89@jhu.edu>
+Date:   Thu Apr 28 22:03:19 2022 -0400
+
+    UML graph uploaded
+
+commit 46c748718e3364f1f3e64406c0e4d309a5cdc76d
+Author: Richard Zhang <rzhang89@jhu.edu>
+Date:   Thu Apr 28 16:13:42 2022 -0400
+
+    readme donee
+
+commit 48db1c99fd79a995805e74ae441256c7993a9209
+Author: Eric Wang <Ericwang0912@gmail.com>
+Date:   Thu Apr 28 13:03:38 2022 -0400
+
+    included the names and IDs
+
+commit 9f5425fc86ccedf729b851f2ed0fe348858ca4fb
+Author: Eric Wang <Ericwang0912@gmail.com>
+Date:   Thu Apr 28 13:01:46 2022 -0400
+
+    added names and IDs
+
+commit 44aaafc56c015bbb2afe8cf21f4d26613da5c316
+Author: Eric Wang <Ericwang0912@gmail.com>
+Date:   Thu Apr 28 12:59:32 2022 -0400
+
+    committed final changes
+
+commit 9dad8d692a3a39eb283a0737fc9b3dd6d121a8e3
+Author: Eric Wang <Ericwang0912@gmail.com>
+Date:   Thu Apr 28 12:58:31 2022 -0400
+
+    added the names and JHED IDs
+
+commit 0ce932ea7ab40be696ac7f812433c71546a39ca2
+Author: Eric Wang <Ericwang0912@gmail.com>
+Date:   Thu Apr 28 12:57:34 2022 -0400
+
+    added names and JHED IDs
+
+commit 115a6f7bb071b770ca78b616991d1b8a14a8fd33
+Author: Eric Wang <Ericwang0912@gmail.com>
+Date:   Thu Apr 28 12:56:19 2022 -0400
+
+    finished editing file
+
+commit 729e7936b127c352cb74783a3a377fcde413ef06
+Author: Eric Wang <Ericwang0912@gmail.com>
+Date:   Thu Apr 28 12:23:13 2022 -0400
+
+    removed the unnecessary variable
+
+commit 2ce60f618cbf94d045fe68669fc09f6c3b0022ef
+Author: Richard Zhang <rzhang89@jhu.edu>
+Date:   Thu Apr 28 12:13:41 2022 -0400
+
+    checkmate and stalemate bug fix
+
+commit a4434eb5eff6763b5af5c1065e03cbe3b4b2fca6
+Author: Richard Zhang <rzhang89@jhu.edu>
+Date:   Wed Apr 27 20:27:54 2022 -0400
+
+    promotion done
+
+commit aea4bc6eb88bcc949d6dc24ef52e162d642b54d0
+Author: Richard Zhang <rzhang89@jhu.edu>
+Date:   Wed Apr 27 12:00:00 2022 -0400
+
+    unnecessary .o files cleared
+
+commit 88937af79f4048ccc703f8760a81c2de65776f96
+Author: Richard Zhang <rzhang89@jhu.edu>
+Date:   Wed Apr 27 11:58:38 2022 -0400
+
+    checkmate and stalemate done
+
+commit 9f4744ce4486d1688e2b9b30fed9bd8a117e9fa3
+Author: Richard Zhang <rzhang89@jhu.edu>
+Date:   Wed Apr 27 11:20:53 2022 -0400
+
+    checkmate added, bugs a lot
+
+commit e3f5b6bdba389c5ebfcdb31d3fd20e7ad4d408ca
+Author: Richard Zhang <rzhang89@jhu.edu>
+Date:   Wed Apr 27 11:14:58 2022 -0400
+
+    copy constructor done
+
+commit 33c79da375e90b0bcb9ddeb2e90dd4654c54fb31
+Author: Richard Zhang <rzhang89@jhu.edu>
+Date:   Wed Apr 27 11:08:36 2022 -0400
+
+    minor fixes
+
+commit 23bf4f3c95bd54f6a9ca4676013f619969b0ffc3
+Author: Richard Zhang <rzhang89@jhu.edu>
+Date:   Wed Apr 27 10:59:28 2022 -0400
+
+    check move implemented
+
+commit 748e7a1e2327ffc43d444dd1615298ac9176939b
+Author: Richard Zhang <rzhang89@jhu.edu>
+Date:   Tue Apr 26 22:05:08 2022 -0400
+
+    minor bug fixed
+
+commit fd28d7b246828417b1e822a8d620131360172c4f
+Author: Richard Zhang <rzhang89@jhu.edu>
+Date:   Tue Apr 26 22:02:39 2022 -0400
+
+    check valid move of pieces added(can have a whole lot of bugs
+
+commit 23512c0422ecfc8357e67c6a94ba1f48578869e3
+Author: Richard Zhang <rzhang89@jhu.edu>
+Date:   Tue Apr 26 21:31:16 2022 -0400
+
+    capture and check check done
+
+commit 742148ba98514f8d030b71bdef98f3dce33fa901
+Author: bohanhou14 <13381498805@163.com>
+Date:   Tue Apr 26 19:51:27 2022 -0400
+
+    still debugging make_move
+
+commit 616386e999cdd6027f49786d4d71b68180712246
+Author: bohanhou14 <13381498805@163.com>
+Date:   Sun Apr 24 14:49:56 2022 -0400
+
+    path not clear function still needs some work
+
+commit 7c019a28b9a422a658b0f279a8cf199f890a51bf
+Author: bohanhou14 <13381498805@163.com>
+Date:   Sun Apr 24 14:08:16 2022 -0400
+
+    realized that the get_path approach will not work. will change the method
+
+commit 81b06645e25b683d3757782cd93fe133623b8434
+Author: bohanhou14 <13381498805@163.com>
+Date:   Sat Apr 23 13:32:20 2022 -0400
+
+    implemented all conditions in make_move except 'move exposes check'; haven't defined the move path for king, knight, bishop, rook
+
+commit 4093815cf3d0c54e36c87ef912f28ca04b3a31c1
+Merge: f1a2134 712c3b5
+Author: bohanhou14 <13381498805@163.com>
+Date:   Fri Apr 22 11:19:54 2022 -0400
+
+    Merge branch 'master' of https://github.com/jhu-ip/2022-spring-final-bhou4-rzhang89-ewang42
+    "Abe pushed after Friday class, no major changes"
+
+commit f1a21348988f4d798af631fa9dac6417f2cc3560
+Author: bohanhou14 <13381498805@163.com>
+Date:   Fri Apr 22 11:19:05 2022 -0400
+
+    Abe pushed after Friday class
+
+commit 712c3b54af2fcb263681efa53410df575aae7b49
+Author: Richard Zhang <rzhang89@jhu.edu>
+Date:   Fri Apr 22 11:13:41 2022 -0400
+
+    point_value added
+
+commit 36635e4a3fdfb91368e8db141fabe5b9bd975c3f
+Author: Richard Zhang <rzhang89@jhu.edu>
+Date:   Fri Apr 22 10:38:43 2022 -0400
+
+    one helper method added
+
+commit c833bcc800f9e423dafded61564ba746b65d266b
+Author: Richard Zhang <rzhang89@jhu.edu>
+Date:   Thu Apr 21 22:44:47 2022 -0400
+
+    memory issue fixed for save load and destructors for game and board added
+
+commit 0081a5f014c50382e68fce90a379cc1a55e16fe8
+Author: Richard Zhang <rzhang89@jhu.edu>
+Date:   Thu Apr 21 22:12:49 2022 -0400
+
+    save and load done
+
+commit 5c183d6e09281a2e22c75e3bd289d4754cbae01d
+Author: Richard Zhang <rzhang89@jhu.edu>
+Date:   Wed Apr 20 21:45:50 2022 -0400
+
+    board done
+
+commit 0600dd7d4e5c43d7ad9b29290ac960334578654f
+Author: Richard Zhang <rzhang89@jhu.edu>
+Date:   Mon Apr 18 22:19:20 2022 -0400
+
+    cpp added to all pieces, error checking required
+
+commit 14083cef76c28859181af6498a0b2e159f70a967
+Author: Richard Zhang <rzhang89@jhu.edu>
+Date:   Mon Apr 18 10:53:01 2022 -0400
+
+    Initialized with the starter codes

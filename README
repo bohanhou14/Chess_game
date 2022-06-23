@@ -1,0 +1,32 @@
+TEAM:
+Richard Zhang - rzhang89
+Eric Wang - ewang42
+Abe Hou - bhou4
+
+DESIGN:
+We implemented point_value by calling a function points in Board with a boolean parameter white(meaning color).
+In this points function, we have an int count that stores the total points and we iterate through all existing pieces. 
+If this piece's color is the same as the indicated color, we increment count by the point_value() of this piece. 
+For each piece, we implemented point_value() that returns the point worth of this piece. As long as the mystery piece implements this function(which it should), our point_value should also work for the mystery piece.
+
+For basic operation of the game "move", we first check whether the start and end position is valid by checking if it is a pair of valid capture/move positions. This step also checks if the start and end position are within the bound.
+ 
+Then, we check if the path is clear(if the start and end position are in the same line). If all tests above passed, 
+we check if the move will result in a checked position(by calling move). If so, we throw an exception. If all tests are passed and this 
+is indeed a valid move, we check if this move results in a promotion and if so, act accordingly.
+
+We also implemented a function called can_move. It essentially goes over every piece, and for each piece, create 
+a vector of valid positions it can go to(not considering check case). Then it will try these positions one by one 
+and see if they result in check. If any of them doesn't result in check, can_move will return true because there is 
+at least one valid move possible. This can_move method is used to implement both the stalemate test and the checkmate test:
+if a player is in check and can_move returns false, this is a checkmate. Similarly, if a player is not in check but can_move
+returns false, this is a stalemate.
+
+For game saving, we go over every position on the game board and print the appropriate representation of this block to 
+the file(like K for white king and - for empty space). Then we check the current color and place it to the bottom. When 
+loading, we essentially do the same thing in reverse: we read the file line by line. If a line includes invalid characters 
+or is too long/too short, we throw an exception that says cannot load game.
+
+COMPLETENESS:
+It's complete and can do everything as required.
+
